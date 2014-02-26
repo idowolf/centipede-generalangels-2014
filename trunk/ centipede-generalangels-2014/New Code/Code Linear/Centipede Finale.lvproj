@@ -164,14 +164,18 @@ DirectoryIndex index.htm
 				<Item Name="Cannon Limit Switch Update.vi" Type="VI" URL="../Systems/Cannon/Cannon Limit Switch Update.vi"/>
 				<Item Name="Cannon Logic.vi" Type="VI" URL="../Systems/Cannon/Cannon Logic.vi"/>
 				<Item Name="Cannon Auto STOW.vi" Type="VI" URL="../Systems/Cannon/Cannon Auto STOW.vi"/>
+				<Item Name="Cannon Global.vi" Type="VI" URL="../Systems/Cannon/Cannon Global.vi"/>
 			</Item>
 			<Item Name="Intake" Type="Folder">
 				<Item Name="Intake Begin.vi" Type="VI" URL="../Systems/Intake/Intake Begin.vi"/>
 				<Item Name="Intake Intake.vi" Type="VI" URL="../Systems/Intake/Intake Intake.vi"/>
 				<Item Name="Intake Set.vi" Type="VI" URL="../Systems/Intake/Intake Set.vi"/>
+				<Item Name="Intake Logic.vi" Type="VI" URL="../Systems/Intake/Intake Logic.vi"/>
+				<Item Name="Intake Global.vi" Type="VI" URL="../Systems/Intake/Intake Global.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Drive Global.vi" Type="VI" URL="../Systems/Drive/Drive Global.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -725,10 +729,6 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
